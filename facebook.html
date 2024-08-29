@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Page</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: lightblue;
+            font-family: sans-serif;
+            width: 100%;
+        }
+        .post {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            border-radius: 10px;
+            background: white;
+            padding: 20px;
+        }
+        .head {
+            display: flex;
+            border-radius: 10px;
+            background: white;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+        }
+        .nirmal {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .name_profile {
+            display: flex;
+            align-items: center;
+        }
+        .q {
+            margin-left: 20px;
+            padding: 10px;
+        }
+        .date p {
+            color: grey;
+            font-size: 13px;
+        }
+        .svg {
+            width: 23px;
+            height: 23px;
+        }
+        .body {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        body p {
+            font-size: 14px;
+        }
+        .post_image{
+            margin: auto;
+            height: 250px;
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        .btm_icon{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+        .left_icon{
+            margin-left: 10px;
+            margin-top: 15px;
+
+        }
+        .margin{
+            margin-left: 15px;
+        }
+        .right_icon{
+            margin-top: 15px;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .ico{
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+
+        }
+        .in{
+            background: transparent;
+            border: none;
+            outline: none;
+            margin-left: 5px;
+        }
+        .flex{
+            display: flex;
+            align-items: center;
+        }
+        form{
+            background: lightgrey;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="post">
+        <div class="head">
+            <div class="name_profile"> 
+                <img src="profile.jpeg" class="nirmal">
+                <div class="q">
+                    <h4>Nirmal Gandher</h4>
+                    <p class="date">10/07/2024</p>
+                </div>
+            </div>
+            <div class="icon">
+                <img src="three dot.png" class="svg">
+            </div>
+        </div>
+        <div class="body">
+            <h4>School</h4>
+            <p>Schools are opening in Karachi.</p>
+            <img src="post.png" class="post_image">
+            <div class="btm_icon">
+            <div class="left_icon">
+                <img src="heart.png" class="svg margin">
+                <img src="comment.png" class="svg margin">
+                <img src="share.png" class="svg margin">
+            </div>
+            <div class="right_icon">
+                <img src="save.png" class="svg margin">
+
+            </div>
+        </div>
+        <form> 
+            <div class="flex">
+
+                <img src="profile.jpeg" class="ico">
+                <input type="text" name="" placeholder="Enter Text" class="in">
+            </div>
+            <img src="send.png" class="svg margin">
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
